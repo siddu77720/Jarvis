@@ -1,16 +1,12 @@
 $(document).ready(function () {
-    
-    $('.text').texllate({
-        loop:true,
-        sync:true,
-        in:{
-            effect:"bounceIn",
-            
+    $('.text').textillate({
+        loop: true,
+        sync: true,
+        in: {
+            effect: "bounceIn"
         },
-        out:{
-            effect:"bounceOut",
-
-        },
-
+        out: {
+            effect: "bounceOut"
+        }
     });
 });
